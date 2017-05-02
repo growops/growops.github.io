@@ -238,6 +238,7 @@ hr:before {
     header {
         padding-top: 130px;
         min-height: 500px;
+        opacity: 1;
     }
 
     header h1 {
@@ -301,15 +302,15 @@ hr:before {
 /* But it is not enough now, below dont hide play button parent div */
 
 *::-webkit-media-controls-panel {
-  display: none!important;
-  -webkit-appearance: none;
+    display: none!important;
+    -webkit-appearance: none;
 }
 
 /* Old shadow dom for play button */
 
 *::--webkit-media-controls-play-button {
-  display: none!important;
-  -webkit-appearance: none;
+    display: none!important;
+    -webkit-appearance: none;
 }
 
 /* New shadow dom for play button */
@@ -317,6 +318,6 @@ hr:before {
 /* This one works */
 
 *::-webkit-media-controls-start-playback-button {
-  display: none!important;
-  -webkit-appearance: none;
+    display: none!important;
+    -webkit-appearance: none;
 }
